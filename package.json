@@ -1,0 +1,48 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.13.13",
+        "axios": "^0.21",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.2.2",
+        "babel-preset-env": "^1.7.0",
+        "bootstrap": "^4.6.0",
+        "jquery": "^3.6",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1",
+        "webpack": "^5.40.0"
+    },
+    "dependencies": {
+        "@reach/combobox": "^0.15.1",
+        "@react-google-maps/api": "^2.2.0",
+        "google-map-react": "^2.1.10",
+        "google-maps-react": "^2.0.6",
+        "moment": "^2.29.1",
+        "qrcode": "^1.4.4",
+        "react-alert": "^7.0.3",
+        "react-alert-template-basic": "^1.0.2",
+        "react-bootstrap": "^1.6.1",
+        "react-google-maps": "^9.4.5",
+        "react-places-autocomplete": "^7.3.0",
+        "react-qr-reader": "^2.2.1",
+        "react-router-dom": "^5.2.0",
+        "react-toastify": "^7.0.4",
+        "use-places-autocomplete": "^1.9.3"
+    }
+}
